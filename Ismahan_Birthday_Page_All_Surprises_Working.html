@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="so">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#fff0f6">
+<title>Happy Birthday Ismahan — from Salma Feysel Ahmed Hassan</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display:wght@500;600;700&family=Lora:wght@400;500;600&display=swap');
+:root{--plum:#673b65;--rose:#c64f83;--pink:#ffe0ec;--gold:#d7a84c;--lav:#eee5ff;--mint:#e0f5ed;--peach:#fff0dc;--ink:#46334b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;padding:18px 12px 38px;background:linear-gradient(145deg,#ffe7f0 0%,#f0e9ff 35%,#fff1df 70%,#e4f7ef 100%);color:var(--ink);font-family:"Lora",Georgia,serif;line-height:1.95;letter-spacing:.01em}
+main{max-width:760px;margin:auto}
+.card{border-radius:25px;padding:30px 23px;margin:0 0 19px;background:rgba(255,255,255,.94);border:1px solid rgba(255,255,255,.95);box-shadow:0 14px 38px rgba(86,47,84,.11);position:relative;overflow:hidden}
+.hero{text-align:center;padding:48px 23px;background:linear-gradient(145deg,#fff8fb,#fff,#f7efff);border:1px solid #efd8e5;outline:1px solid rgba(255,255,255,.85);outline-offset:-8px}
+.kicker{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:10px;letter-spacing:.24em;font-weight:800;color:var(--rose);text-transform:uppercase}
+h1{font:600 clamp(39px,10vw,66px)/1.08 "DM Serif Display",Georgia,serif;color:#b34379;margin:18px 0 8px;letter-spacing:-.035em;text-shadow:0 2px 0 #fff}
+.fullname{font:600 clamp(23px,6vw,34px)/1.35 "Playfair Display",Georgia,serif;color:var(--plum);margin:12px 0;letter-spacing:.015em}
+.ribbon{display:inline-block;background:linear-gradient(90deg,#f8d3e3,#e8dcff,#ffebc9);color:#704568;padding:8px 17px;border-radius:999px;font:600 11px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:.07em;margin:8px 0}
+.spark{font-size:23px;letter-spacing:.3em;color:var(--gold);margin:17px 0;filter:drop-shadow(0 2px 2px rgba(215,168,76,.15))}
+.intro{font:500 18px/1.95 "Lora",Georgia,serif;color:#5b435d;margin-top:12px}
+h2{font:600 22px/1.4 "Playfair Display",Georgia,serif;text-align:center;color:#a84376;margin:0 0 17px;letter-spacing:.005em}
+p{font:400 15px/2 "Lora",Georgia,serif;letter-spacing:.005em;margin:0 0 14px;color:#514052}
+p:last-child{margin-bottom:0}
+.pink{background:linear-gradient(145deg,#fff,#fff0f6)}
+.lav{background:linear-gradient(145deg,#fff,#f3efff)}
+.peach{background:linear-gradient(145deg,#fff,#fff5e8)}
+.mint{background:linear-gradient(145deg,#fff,#effaf5)}
+.gold{background:linear-gradient(145deg,#fff,#fff9e9)}
+.ending{text-align:center;background:linear-gradient(145deg,#fff3f8,#f5efff 55%,#fff6e7)}
+.signature{font:500 22px/1.7 "Playfair Display",Georgia,serif;color:#a84376;margin-top:24px}
+.small{font:italic 12px/1.8 "Lora",Georgia,serif;color:#907b90;margin-top:18px}
+.heart{color:#cf5b8d}
+
+.surprise-area{background:linear-gradient(145deg,#fff4fa,#f4efff);text-align:center}
+.tap-intro{font-size:14px;color:#80657d;margin:0 0 16px}
+.surprise-grid{display:grid;grid-template-columns:1fr;gap:12px;margin-top:18px}
+.surprise-tile{width:100%;border:1px solid #f0cddd;border-radius:18px;padding:18px 15px;background:linear-gradient(135deg,#fff,#fff0f6);color:#754362;font:600 14px/1.6 "Playfair Display",Georgia,serif;text-align:center;cursor:pointer;box-shadow:0 5px 14px rgba(120,60,100,.07);-webkit-tap-highlight-color:transparent}
+.surprise-tile:nth-child(2){background:linear-gradient(135deg,#fff,#f1ebff);border-color:#ded0f4}
+.surprise-tile:nth-child(3){background:linear-gradient(135deg,#fff,#fff4df);border-color:#f0dfbb}
+.surprise-tile:focus{outline:3px solid #d78aad;outline-offset:3px}
+.reveal{display:none;margin-top:12px;padding:17px;border-radius:15px;background:rgba(255,255,255,.94);color:#5b3d59;font:400 14px/2 "Lora",Georgia,serif;border:1px solid rgba(220,190,215,.5)}
+.reveal.open{display:block;animation:appear .35s ease-out}
+@keyframes appear{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@media(min-width:560px){.surprise-grid{grid-template-columns:repeat(3,1fr)}}
+@media(prefers-reduced-motion:reduce){.reveal.open{animation:none}}
+
+@media(min-width:620px){.card{padding:40px 48px}.hero{padding:62px 50px}p{font-size:16px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.opening-screen{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;
+ padding:24px;background:radial-gradient(circle at top,#fff 0%,#ffe3ef 42%,#e9ddff 100%);
+ text-align:center;transition:opacity .7s ease,visibility .7s ease}
+.opening-screen[open]{display:none}
+.opening-screen summary{list-style:none;cursor:pointer}
+.opening-screen summary::-webkit-details-marker{display:none}
+.opening-card{width:min(100%,520px);padding:38px 25px;border:1px solid rgba(255,255,255,.95);
+ border-radius:28px;background:rgba(255,255,255,.88);box-shadow:0 18px 55px rgba(86,47,84,.16)}
+.opening-ornament{font-size:32px;letter-spacing:.25em;color:#c64f83;margin-bottom:16px}
+.opening-title{font:600 clamp(30px,8vw,43px)/1.2 "DM Serif Display",Georgia,serif;color:#a84376;margin:10px 0}
+.opening-copy{font:15px/1.9 "Lora",Georgia,serif;color:#654d66;margin:12px 0 24px}
+.opening-button{border:0;border-radius:999px;padding:14px 25px;background:linear-gradient(90deg,#d66b9a,#9c72c5);
+ color:white;font:600 15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;box-shadow:0 7px 20px rgba(156,85,142,.22);cursor:pointer}
+.opening-button:focus{outline:3px solid #d78aad;outline-offset:4px}
+.opening-note{font:italic 12px/1.7 "Lora",Georgia,serif;color:#927b91;margin-top:18px}
+body.page-locked{overflow:hidden}
+
+
+/* Reliable, script-free tap interactions for mobile browsers */
+.opening-screen[open]{display:flex}
+.opening-screen:not([open]){display:none}
+.opening-screen>summary{list-style:none;cursor:pointer}
+.opening-screen>summary::-webkit-details-marker{display:none}
+.surprise-item{min-width:0}
+.surprise-item>summary{list-style:none;cursor:pointer}
+.surprise-item>summary::-webkit-details-marker{display:none}
+.surprise-item .reveal{display:none}
+.surprise-item[open] .reveal{display:block;animation:appear .35s ease-out}
+.surprise-item[open] .surprise-tile{outline:2px solid #d78aad}
+
+</style>
+</head>
+<body>
+
+<details class="opening-screen" id="openingScreen" open>
+ <summary class="opening-card">
+  <div class="opening-ornament">✦ ♡ ✦</div>
+  <div class="kicker">A little surprise is waiting for you</div>
+  <h1 class="opening-title">Ismahan, this is for you! 💗</h1>
+  <p class="opening-copy">Before you read your birthday message, there is one tiny surprise. This page was made especially to remind you how appreciated you are.</p>
+  <span class="opening-button">Open your surprise ✨</span>
+  <div class="opening-note">Tap anywhere here to reveal your birthday message</div>
+ </summary>
+</details>
+
+<main>
+<header class="card hero">
+ <div class="kicker">A special day • A special friend</div>
+ <div class="spark">✦ ♡ ✦</div>
+ <h1>Happy Birthday</h1>
+ <div class="fullname">Ismahan Mohamed Nur Ali</div>
+ <div class="ribbon">A message written with love and friendship</div>
+ <p class="intro">Ismahan, maanta ma aha oo keliya maalin dhalasho. Waa maalin aan fursad u helayo inaan kuu sheego sida aan kuu qadariyo, sida aan ugu faraxsanahay inaan ku aqaan, iyo sida ay saaxiibtinimadaadu qalbigayga meel gaar ah uga leedahay.</p>
+ <div class="spark">♡ ✧ ♡</div>
+</header>
+
+<section class="card pink">
+ <h2>Saaxiibteyda qaaliga ah 💗</h2>
+ <p>Mararka qaar nolosha waxaa ku soo mara dad aad markiiba fahanto inay yihiin dad mudan in la qadariyo. Dad aan u baahnayn inay wax weyn sameeyaan si ay maalintaada uga dhigaan mid qurux badan. Adigu waxaad tahay qof ka mid ah dadkaas. Waxaan ku faraxsanahay inaan ku aqaan, inaan kula sheekaysto, kula qoslo, oo aan kula wadaago waqtiyo aan qiimo weyn ii leh.</p>
+ <p>Waxaan rabaa inaad ogaato in saaxiibtinimadaadu aysan ii ahayn wax iska caadi ah. Waa wax aan ku farxo oo aan qadariyo. Waxaa laga yaabaa inaanan maalin kasta kuu sheegin, laakiin runtii waan ku mahadsanahay qofka aad tahay iyo farxadda aad keento.</p>
+</section>
+
+<section class="card lav">
+ <h2>Xusuusaha iyo qosolka aan wadaagno ✨</h2>
+ <p>Waxyaabaha ugu quruxda badan mararka qaar waa kuwa yaryar: sheeko caadi ah oo qosol isu beddesha, hadal yar oo maalintaada hagaajiya, ama xusuus aad dib u milicsato oo dhoolla-caddayn kuu keenta. Waxaan rajaynayaa in noloshu ina siiso xusuuso badan oo sidaas oo kale ah, kuwa aan sannado ka dib xasuusan doonno annagoo faraxsan.</p>
+ <p>Saaxiibtinimada dhabta ahi kuma xirna hadiyado qaali ah ama erayo badan. Waxay ku jirtaa daacadnimo, is-qadarin, is-faham iyo in qofku ku farxo inuu qof kale noloshiisa ku jiro. Taas ayaana ah waxa aan jeclahay inaan mar walba ka ilaalino saaxiibtinimadeenna.</p>
+</section>
+
+<section class="card peach">
+ <h2>Waxaan rabaa inaad mar walba xasuusato 🌷</h2>
+ <p>Ismahan, waxaad tahay qof qiimo leh. Ha u oggolaan maalmo adag ama hadallo dadka kale kaa yiraahdaan inay kaa dhaadhiciyaan wax ka duwan. Waxaad mudan tahay in lagu ixtiraamo, lagu qadariyo, laguna hareereeyo dad kuu rajeeya wanaag. Waxaan rajaynayaa inaad naftaada u naxariisato, aad ku faanto horumarkaaga, oo aadan yaraysan waxyaabaha quruxda badan ee kugu jira.</p>
+ <p>Mar walba sii ahaaw qofkaaga wanaagsan. Qosolkaaga ha lumin, riyooyinkaagana ha ka quusan. Waxaan kuu rajaynayaa inaad maalin kasta aragto sabab cusub oo aad ugu faraxdo nolosha.</p>
+</section>
+
+<section class="card mint">
+ <h2>Farxad, guul iyo riyooyin rumooba 🦋</h2>
+ <p>Waxaan kuu rajaynayaa sannad ay ka buuxaan fursado cusub, guulo waaweyn iyo waxyaabo yaryar oo qalbiga farxad geliya. Alle ha kuu sahlo waxbarashadaada iyo dhammaan himilooyinka aad hiigsanayso. Waxaan rajaynayaa in dadaalkaagu miro dhalo, in albaab kasta oo kheyr kuu leh kuu furmo, iyo in mustaqbalkaagu noqdo mid ka qurux badan sida aad maanta ku riyoonayso.</p>
+ <p>Waxaan kuu rajaynayaa subaxyo rajo leh, habeenno deggan, dad daacad ah, iyo maalmo aad dareento in wax walba ay si tartiib ah u hagaagayaan. Wax kasta oo wanaagsan oo aad qalbigaaga ku sidato, Alle ha kuu rummeeyo waqtiga kuugu habboon.</p>
+</section>
+
+<section class="card gold">
+ <h2>Ducadayda adiga kuu gaar ah 🤍</h2>
+ <p>Alle ha kuu barakeeyo cimrigaaga, caafimaadkaaga, aqoontaada iyo mustaqbalkaaga. Alle ha kaa fogeeyo murugada, welwelka iyo wax kasta oo qalbigaaga culays ku noqda. Ha ku siiyo qalbi deggan, iimaan adag, farxad joogto ah iyo dad wanaagsan oo ku jecel kuna qadariya.</p>
+ <p>Alle ha kuu fududeeyo wax kasta oo kugu adag, hana kuu beddelo daal kasta nasasho, murugo kasta farxad, iyo sugitaan kasta kheyr. Waxaan kuu rajaynayaa nolol ay ku badan yihiin barako, nabad iyo guulo.</p>
+</section>
+
+<section class="card pink">
+ <h2>Mahadsanid inaad tahay adiga 💐</h2>
+ <p>Waad ku mahadsan tahay saaxiibtinimadaada, hadalladaada, qosolkaaga iyo dhammaan waqtiyada wanaagsan. Waad ku mahadsan tahay inaad tahay qof aan si dhab ah u qadariyo. Haddii aan hal eray kuugu soo koobi lahaa waxa aad ii tahay, waxaan oran lahaa: <strong>saaxiib qaali ah</strong>.</p>
+ <p>Ma doonayo in dhalashadan ay noqoto oo keliya maalin aad hambalyo badan hesho; waxaan rabaa inay noqoto maalin aad dareento in lagu jecel yahay, lagu qadariyo, laguna xasuusto. Waayo runtii waad mudan tahay intaas iyo ka badan.</p>
+</section>
+
+
+<section class="card surprise-area">
+ <div class="kicker">A little birthday surprise 🎁</div>
+ <h2 style="margin-top:10px">Taabo halkan, Ismahan! 💝</h2>
+ <p class="tap-intro">Saddex yaab oo yaryar ayaan kuu diyaariyay. Mid kasta taabo si aad u furto farriin kuu gaar ah.</p>
+ <div class="surprise-grid">
+  <details class="surprise-item">
+   <summary class="surprise-tile">🎀 Taabo yaabka koowaad</summary>
+   <div class="reveal">Waxaan rabaa inaad ogaato in saaxiibtinimadaadu tahay wax aan qalbigayga ku hayo. Ma tihid qof aan iska aqaan oo keliya; waxaad tahay saaxiib aan si dhab ah u qadariyo. ❤️</div>
+  </details>
+  <details class="surprise-item">
+   <summary class="surprise-tile">🦋 Fur farriinta labaad</summary>
+   <div class="reveal">Haddii aan kuu rajeeyo hal shay, waa in noloshu kuu keento farxad ka badan inta aad filayso, riyooyinkaaguna mid mid u rumoobaan. Waxaad mudan tahay wanaag badan. ✨</div>
+  </details>
+  <details class="surprise-item">
+   <summary class="surprise-tile">💌 Farriinta ugu dambaysa</summary>
+   <div class="reveal">Sir yar: qofkan kuu soo diyaariyay farriintan aad buu kuu qadariyaa. Mar walba xasuuso inaad tahay saaxiib qaali ah. Dhalasho farxad leh, Ismahan! — Salma 💗</div>
+  </details>
+ </div>
+</section>
+
+<footer class="card ending">
+ <div class="kicker">One last message, straight from my heart</div>
+ <div class="spark">♡ ✦ ♡</div>
+ <h2>Dhalasho farxad leh, Ismahan! 🎂</h2>
+ <p>Waxaan rajaynayaa in maanta ay kuu noqoto maalin qurux badan oo ay ka buuxaan qosol, jacaylka qoyska iyo saaxiibbada, iyo xusuuso aad muddo dheer qalbiga ku hayn doonto. Sannadkaaga cusub ha noqdo mid ka buuxa kheyr iyo wax kasta oo kuu wanaagsan.</p>
+ <p>Mar walba xasuuso: waxaad tahay qof la qadariyo, saaxiib qaali ah, waxaana kuu rajaynayaa farxad aan dhammaan iyo mustaqbal ifaya. Aad baan kuu qadariyaa, Ismahan. ❤️</p>
+ <div class="signature">With all my love and best wishes,<br><strong>Salma Feysel Ahmed Hassan</strong></div>
+ <div class="spark">✧ ♡ ✧</div>
+ <div class="small">Alle ha kuu barakeeyo cimrigaaga iyo sannad kasta oo kuu soo kordha.</div>
+</footer>
+</main>
+
+
+</body>
+</html>
